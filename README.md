@@ -24,4 +24,9 @@ Time Tracker with Productivity Settings This Chrome Extension tracks how much ti
 Perfect for students, developers, or anyone wanting to stay focused online.
 
 
+OUTPUT
+
+![Image](https://github.com/user-attachments/assets/aac83273-b8e0-41fb-8807-b35366621b73)
+
+
 
