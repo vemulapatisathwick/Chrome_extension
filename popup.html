@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Extension Settings</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Extension Settings</h1>
+
+    <label>Add Productive Website:</label>
+    <input type="text" id="productiveInput" placeholder="e.g. github.com">
+    <button id="addProductive">Add</button>
+    <ul id="productiveList"></ul>
+
+    <label>Add Unproductive Website:</label>
+    <input type="text" id="unproductiveInput" placeholder="e.g. facebook.com">
+    <button id="addUnproductive">Add</button>
+    <ul id="unproductiveList"></ul>
+
+    <button id="saveSettings">💾 Save Settings</button>
+
+    <h2>Time Spent per Website</h2>
+    <div id="usageStats"></div>
+    <h2>Time Spent</h2>
+<div id="usageStats">
+  <p>youtube.com — 5 min 12 sec</p>
+  <p>github.com — 3 min 40 sec</p>
+  <p>facebook.com — 1 min 12 sec</p>
+  <p>leetcode.com — 1 min 12 sec</p>
+  <p>instgram.com — 1 min 12 sec</p>
+  
+  
+
+
+</div>
+
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
